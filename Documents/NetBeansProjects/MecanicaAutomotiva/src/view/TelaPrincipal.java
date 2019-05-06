@@ -29,27 +29,27 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jBtnPecas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Box.png"))); // NOI18N
+        jBtnPecas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/large/Box.png"))); // NOI18N
         jBtnPecas.setText("Estoque");
         jBtnPecas.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jBtnPecas.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jBtnOficina.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Tools.png"))); // NOI18N
+        jBtnOficina.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/large/Tools.png"))); // NOI18N
         jBtnOficina.setText("Oficina");
         jBtnOficina.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jBtnOficina.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jBtnCaixa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Monitor.png"))); // NOI18N
+        jBtnCaixa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/large/Monitor.png"))); // NOI18N
         jBtnCaixa.setText("Caixa");
         jBtnCaixa.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jBtnCaixa.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jBtnVendas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Line Chart.png"))); // NOI18N
+        jBtnVendas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/large/Line Chart.png"))); // NOI18N
         jBtnVendas.setText("Vendas");
         jBtnVendas.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jBtnVendas.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jBtnOS.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Paste.png"))); // NOI18N
+        jBtnOS.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/large/Paste.png"))); // NOI18N
         jBtnOS.setText("Ordem de Serviço");
         jBtnOS.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jBtnOS.setVerifyInputWhenFocusTarget(false);
@@ -80,9 +80,8 @@ public class TelaPrincipal extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelMenuLayout.createSequentialGroup()
                 .addContainerGap(58, Short.MAX_VALUE)
                 .addGroup(jPanelMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanelMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jBtnOficina, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jBtnOS, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jBtnOficina, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jBtnOS, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jBtnPecas, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(32, 32, 32)
                 .addGroup(jPanelMenuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)

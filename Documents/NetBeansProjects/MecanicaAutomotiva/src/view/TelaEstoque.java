@@ -80,6 +80,11 @@ public class TelaEstoque extends javax.swing.JFrame{
         );
 
         jBtnFechar.setText("Fechar");
+        jBtnFechar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBtnFecharActionPerformed(evt);
+            }
+        });
 
         jBtnPesquisa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/mini/Search.png"))); // NOI18N
 
@@ -117,6 +122,10 @@ public class TelaEstoque extends javax.swing.JFrame{
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jBtnFecharActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnFecharActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jBtnFecharActionPerformed
 
     /**
      * @param args the command line arguments

@@ -64,10 +64,8 @@
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace pref="58" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jBtnOficina" alignment="0" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="jBtnOS" alignment="0" min="-2" pref="91" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="jBtnOficina" alignment="0" min="-2" pref="91" max="-2" attributes="0"/>
+                      <Component id="jBtnOS" alignment="0" min="-2" pref="91" max="-2" attributes="0"/>
                       <Component id="jBtnPecas" min="-2" pref="91" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
@@ -84,7 +82,7 @@
         <Component class="javax.swing.JButton" name="jBtnPecas">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/icon/Box.png"/>
+              <Image iconType="3" name="/icon/large/Box.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Estoque"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -94,7 +92,7 @@
         <Component class="javax.swing.JButton" name="jBtnOficina">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/icon/Tools.png"/>
+              <Image iconType="3" name="/icon/large/Tools.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Oficina"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -104,7 +102,7 @@
         <Component class="javax.swing.JButton" name="jBtnCaixa">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/icon/Monitor.png"/>
+              <Image iconType="3" name="/icon/large/Monitor.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Caixa"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -114,7 +112,7 @@
         <Component class="javax.swing.JButton" name="jBtnVendas">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/icon/Line Chart.png"/>
+              <Image iconType="3" name="/icon/large/Line Chart.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Vendas"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -124,7 +122,7 @@
         <Component class="javax.swing.JButton" name="jBtnOS">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/icon/Paste.png"/>
+              <Image iconType="3" name="/icon/large/Paste.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Ordem de Servi&#xe7;o"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
