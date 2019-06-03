@@ -1,9 +1,5 @@
 package view;
-
-/**
- *
- * @author D
- */
+//Autor Diego Roberto
 public class TelaEstoque extends javax.swing.JFrame{
 
     /**
@@ -101,7 +97,7 @@ public class TelaEstoque extends javax.swing.JFrame{
                         .addComponent(jTxtPesquisa, javax.swing.GroupLayout.PREFERRED_SIZE, 194, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(jBtnPesquisa))
-                    .addComponent(jLblHead))
+                    .addComponent(jLblHead, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(23, 23, 23))
         );
         layout.setVerticalGroup(

@@ -1,6 +1,6 @@
 package view;
 
-//@autor Diego Roberto, Francisco Miranda, João Carlos
+//Autor Diego Roberto
 
 public class TelaPrincipal extends javax.swing.JFrame {
 
